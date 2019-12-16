@@ -1,0 +1,90 @@
+#sublink {
+  font-family: "Unimed Sans","Trebuchet MS","Arial";
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0;
+  color: #5B5C65;
+  opacity: 1;
+
+
+}
+
+#link {
+  font-family: 'Unimed Slab';
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #333333;
+  font-weight: 600;
+  opacity: 1;
+
+}
+
+.menuAcessoRapido {
+  background-color: #F4F4F4;
+  padding-top: 5.5%;
+  padding-bottom: 5%;
+}
+
+.logoAcessoRapidoImg {
+    max-width: 140px !important;
+    max-height: 65px !important;
+    
+}
+
+.container-interno {
+  display: flex;
+  flex-direction: row;
+}
+
+@media(max-width: 1024px) {
+
+  .btn-collapse-menu {
+    margin-right: 48px;
+    float: right;
+    display: block;
+  }
+
+  .container-interno {
+
+    flex-direction: column;
+
+  }
+
+  .linkAcesso {
+    margin-left: 33px;
+  }
+
+  .logoAcessoRapido {
+    margin-bottom: 30px;
+    margin-left: 33px;
+  }
+
+  #link {
+    font-weight: 300;
+  }
+
+  #sublink {
+    margin-left: 29px;
+  }
+
+}
+
+@media(min-width: 1025px) {
+  .btn-collapse-menu {
+    display: none !important;
+  }
+}
+
+.glyphicon-chevron-down.active {
+   display: block;
+   transform: rotate(180deg);
+}
+
+.agregador-submenu-fechado {
+  display: none !important;
+}
+
+.agregador-submenu-aberto {
+  display: block !important;
+}
