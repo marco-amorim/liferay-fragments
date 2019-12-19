@@ -1,6 +1,6 @@
 #sublink {
     font-family: "Unimed Sans","Trebuchet MS","Arial";
-    font-size: 14px;
+    font-size: 0.8305rem !important;
     text-align: left;
     letter-spacing: 0;
     color: #5B5C65;
@@ -12,10 +12,9 @@
   #link {
     font-family: 'Unimed Slab';
     text-align: left;
-    font-size: 18px;
+    font-size: 1.125rem !important;
     letter-spacing: 0;
     color: #333333;
-    font-weight: 600;
     opacity: 1;
   
   }
@@ -23,7 +22,7 @@
   .menuAcessoRapido {
     background-color: #F4F4F4;
     padding-top: 65px;
-    padding-bottom: 28px;
+    padding-bottom: 30px;
   }
   
   .logoAcessoRapidoImg {
@@ -62,10 +61,6 @@
     .logoAcessoRapido {
       margin-bottom: 30px;
       margin-left: 33px;
-    }
-  
-    #link {
-      font-weight: 300;
     }
   
     #sublink {
@@ -107,6 +102,6 @@
   }
   
   .linkFilho {
-    margin-bottom: 24px;
+    margin-bottom: 10px;
   }
   
