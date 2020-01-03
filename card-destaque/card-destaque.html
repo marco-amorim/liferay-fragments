@@ -1,13 +1,22 @@
 <div class="cardDestaque">
+  <lfr-editable id="imgDestaque" type="image">
+    <img aria-label="Imagem em Destaque" class="card-img-top w-100 cardDestaque__img">
+  </lfr-editable>
+  <div class="mx-auto text-center">
 
-  <img aria-label="Imagem em Destaque" class="card-img-top cardDestaque__img" data-lfr-background-image-id="banner-center">
-
-  <div class="mx-auto text-center cardDestaque__titulo">
-
-      <lfr-editable id="tituloDestaque" type="rich-text">
-        <h1 class="cardDestaque__titulo--input">
+      <lfr-editable id="tituloDestaque" type="rich-text" style="position: relative;">
+      
+        <h2 class=" d-flex justify-content-center w100" style="
+            position: absolute;
+            z-index: 1;
+            bottom: 30px;
+            display: inline-block;
+            
+        ">
           Coloque seu titulo aqui
-        </h1>
+        </h2>
+
+
       </lfr-editable>
 
   </div>
