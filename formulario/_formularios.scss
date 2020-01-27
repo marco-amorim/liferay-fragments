@@ -1,0 +1,89 @@
+.form-group input {
+    font-family: 'Unimed Sans';
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    padding-right: 35px;
+
+    &:focus {
+        font-size: 1rem;
+        caret-color: #00995D;
+    }
+    
+}
+
+.form-group input::placeholder {
+    font-family: 'Unimed Sans';
+    font-size: 0.75rem;
+}
+
+.form-group label {
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-family: 'Unimed Sans';
+    letter-spacing: 0;
+    opacity: 1;
+    margin-bottom: 18px;
+}
+
+.lexicon-icon-caret-double .lexicon-icon-outline {
+    display: none;
+}
+
+.lexicon-icon-caret-double {
+    background: url('..//..//images//icons//ico_keyboard_arrow_down.svg') no-repeat padding-box;
+    background-position-y: center;
+}
+
+.has-error .custom-control-label, .has-error .form-check-label {
+    color: #272833;
+}
+
+ .form-feedback-item {
+     position: absolute;
+     top: 48px;
+     right: 3%;
+     background: url('..//..//images//icons//ico_warning_form.svg') no-repeat padding-box;
+     background-position-y: center;
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+     width: 20px;
+
+     
+ }
+
+.lexicon-icon-caret-double.active {
+    background: url('..//..//images//icons//ico_keyboard_arrow_up.svg') no-repeat padding-box;
+}
+
+.dropdown-menu.show {
+    margin-top: 15px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #333333;
+}
+
+  .tooltip__erro {
+    position: absolute;
+    top: 48px;
+    right: 3%;
+    background-position-y: center;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 20px;
+    opacity: 1;
+  }
+
+.tooltip-inner {
+    background-color: #ED1651;
+    border-color: #ED1651;
+    padding: 6px 18px;
+    font-family: 'Unimed Sans';
+    font-weight: bold;
+    font-size: 0.5625rem;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: #ED1651;
+}
