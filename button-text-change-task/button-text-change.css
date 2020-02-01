@@ -1,0 +1,22 @@
+.test {
+
+}
+
+.test {
+  color: transparent;
+  display: inline-block;
+  position: relative;
+}
+
+.test:after {
+  content: "World";
+  position: absolute;
+  display: block;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
